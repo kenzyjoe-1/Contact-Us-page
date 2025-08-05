@@ -16,24 +16,24 @@ body{
 }
 .con1 input{
     height: 35px;
-    width: 17.5vw;
+    width: 17vw;
     border-radius: 6px;
     border: 0.5px solid gray;
 }
 .con2 input:hover{
-    border: 2px solid hsl(169, 82%, 27%);
+    border: 1.5px solid hsl(169, 82%, 27%);
 }
 .con1 input:hover{
-    border: 2px solid hsl(169, 82%, 27%);
+    border: 1.5px solid hsl(169, 82%, 27%);
 }
 .con5 input:hover{
-    border: 2px solid hsl(169, 82%, 27%);
+    border: 1.5px solid hsl(169, 82%, 27%);
 }
 .conll textarea:hover{
-    border: 2px solid hsl(169, 82%, 27%);
+    border: 1.5px solid hsl(169, 82%, 27%);
 }
 .con3 .ooo .lab:hover{
-    border: 2.2px solid hsl(169, 82%, 27%);
+    border: 1.5px solid hsl(169, 82%, 27%);
     background-color: hsl(146, 56%, 82%);
 }
 input:focus,
@@ -52,7 +52,7 @@ select:focus {
 }
 .con2 input{
     height: 35px;
-    width: 17.5vw;
+    width: 17vw;
     border-radius: 6px;
     border: 0.5px solid gray;
 }
@@ -67,7 +67,7 @@ select:focus {
 }
 .con5 input {
     height: 35px;
-    width: 35.5vw;
+    width: 34.8vw;
     border-radius: 6px;
     border: 0.5px solid gray;
 }
@@ -169,6 +169,11 @@ h3{
    height:15px;
    
 }
+#final{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
 #final .submit input{
     width: 35.5vw;
     height: 40px;
@@ -185,8 +190,8 @@ h3{
 }
 @media (max-width:690px) {
     #container{
-        width: 400px;
-        margin-right: 20px;
+        width: 90vw;
+        padding: 10px 20px;
     }
     .wrapper{
         display: flex;
@@ -198,27 +203,27 @@ h3{
     }
     .con1 input{
     height: 40px;
-    width: 54vw;
+    width: 100%;
     }
     .con2 input{
     height: 40px;
-    width: 54vw;
+    width: 100%;
 }
     .con3 .ooo .lab{
     height: 40px;
-    width: 54vw;
+    width: 100%;
 }
     .conll textarea{
     height: 35vh;
-    width: 54vw;
+    width: 100%;
 }
     .con5 input{
     height: 40px;
-    width: 54vw;
+    width: 100%;
 }
     #final .submit input{
     height: 40px;
-    width: 54vw;
+    width: 300px;
 }
    .popup{
     position: fixed;
@@ -229,295 +234,6 @@ h3{
     position: relative;
     top: -70px;
     left: 250px;
-    color: white;
-   }
-}
-@media (width:414px) {
-    #container{
-        width: 360px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 78vw;
-    }
-    .con2 input{
-    height: 40px;
-    width: 78vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width: 78vw;
-}
-    .conll textarea{
-    height: 30vh;
-    width: 78vw;
-}
-    .con5 input{
-    height: 40px;
-    width: 78vw;
-}
-    #final .submit input{
-    height: 40px;
-    width: 78vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -100px;
-    width: 300px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 250px;
-    color: white;
-   }
-}
-@media (width:430px) {
-    #container{
-        width: 370px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 77vw;
-    }
-    .con2 input{
-    height: 40px;
-    width: 77vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width: 77vw;
-}
-    .conll textarea{
-    height: 28vh;
-    width: 77vw;
-}
-    .con5 input{
-    height: 40px;
-    width: 77vw;
-}
-    #final .submit input{
-    height: 40px;
-    width: 77vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -100px;
-    width: 300px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 250px;
-    color: white;
-   }
-}
-@media (width:412px) {
-    #container{
-        width: 360px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 77vw;
-    }
-    .con2 input{
-    height: 40px;
-    width: 77vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width: 77vw;
-}
-    .conll textarea{
-    height: 28vh;
-    width: 77vw;
-}
-    .con5 input{
-    height: 40px;
-    width: 77vw;
-}
-    #final .submit input{
-    height: 40px;
-    width: 77vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -100px;
-    width: 300px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 250px;
-    color: white;
-   }
-}
-@media (width:360px) {
-    #container{
-        width: 320px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 77vw;
-    }
-    .con2 input{
-    height: 40px;
-    width: 77vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width: 77vw;
-}
-    .conll textarea{
-    height: 28vh;
-    width: 77vw;
-}
-    .con5 input{
-    height: 40px;
-    width: 77vw;
-}
-    #final .submit input{
-    height: 40px;
-    width: 77vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -90px;
-    width: 250px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 210px;
-    color: white;
-   }
-}
-@media (width:390px) {
-    #container{
-        width: 320px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 72vw;
-    }
-    .con2 input{
-    height: 40px;
-    width:72vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width:72vw;
-}
-    .conll textarea{
-    height: 28vh;
-    width:72vw;
-}
-    .con5 input{
-    height: 40px;
-    width:72vw;
-}
-    #final .submit input{
-    height: 40px;
-    width:72vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -90px;
-    width: 250px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 210px;
-    color: white;
-   }
-}
-@media (width:375px) {
-    #container{
-        width: 330px;
-        margin-left: 10px;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-    }
-    .con3 .ooo{
-        display: flex;
-        flex-direction: column;
-    }
-    .con1 input{
-    height: 40px;
-    width: 77vw;
-    }
-    .con2 input{
-    height: 40px;
-    width: 77vw;
-}
-    .con3 .ooo .lab{
-    height: 40px;
-    width: 77vw;
-}
-    .conll textarea{
-    height: 28vh;
-    width: 77vw;
-}
-    .con5 input{
-    height: 40px;
-    width: 77vw;
-}
-    #final .submit input{
-    height: 40px;
-    width: 77vw;
-}
-   .popup{
-    position: fixed;
-    margin-left: -90px;
-    width: 250px;
-   }
-   .popup a{
-    position: relative;
-    top: -70px;
-    left: 210px;
     color: white;
    }
 }
